@@ -1,0 +1,16 @@
+.students {
+  width: 900px;
+  overflow: hidden;
+}
+
+.student {
+  width: 90px;
+  height: 20px;
+  text-align: center;
+  list-style-type: none;
+  float: left;
+  display: inline;
+  background: #eeeeee;
+  margin: 10px 10px 10px 10px;
+  padding: 5px 0 5px 0;
+}
