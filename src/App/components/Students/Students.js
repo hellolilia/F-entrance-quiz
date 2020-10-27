@@ -27,10 +27,10 @@ class Students extends Component {
       <div>
         <h2>学员列表</h2>
         <ul className="students">
-          {this.state.students.map((item) => {
+          {this.state.students.map((item, key) => {
             return (
               <li key={item} className="student">
-                {item.id}.{item.name}
+                {key + 1}.{item.name}
               </li>
             );
           })}
