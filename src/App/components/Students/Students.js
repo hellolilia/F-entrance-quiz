@@ -66,7 +66,7 @@ class Students extends Component {
               </li>
             );
           })}
-          <li>
+          <li className="addstudent">
             <form onSubmit={this.handleSubmit}>
               <input type="text" placeholder="+添加学员" onChange={this.handleChange} />
             </form>

@@ -14,3 +14,25 @@
   margin: 10px 10px 10px 10px;
   padding: 5px 0 5px 0;
 }
+
+.addstudent {
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  list-style-type: none;
+  float: left;
+  display: inline;
+  background: #f7f7f7;
+  margin: 10px 10px 0px 10px;
+  padding: 5px 0 5px 0;
+  box-sizing: border-box;
+  border-style: solid;
+  border-color: #929aab;
+}
+
+input {
+  border: none;
+  width: 80px;
+  background: #f7f7f7;
+  color: #393e46;
+}
