@@ -36,3 +36,4 @@ input {
   background: #f7f7f7;
   color: #393e46;
 }
+/* TODO GTB-知识点： - 颜色值应使用_varaiable里面的常量，方便统一修改*/

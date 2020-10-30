@@ -21,6 +21,7 @@ class Students extends Component {
   };
 
   handleSubmit = (event) => {
+    // TODO GTB-工程实践: * 建议把数据请求提取到单独的service
     event.preventDefault();
     fetch('http://localhost:8080/students', {
       method: 'POST',
@@ -60,6 +61,7 @@ class Students extends Component {
         <h2>学员列表</h2>
         <ul className="students">
           {this.state.students.map((item) => {
+            // TODO GTB-工程实践: * 建议将这里提取共用组件，在Group中以便复用
             return (
               <li key={item} className="student">
                 {item.id}.{item.name}
